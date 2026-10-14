@@ -1,0 +1,26 @@
+issue_id,week,owner,reviewer,task,dependency,acceptance_evidence
+W1-S1,1,S1,S5,Acquire ten-pair GDC pilot and freeze file manifest,Kickoff,At least ten complete pairs or lead-approved scope change; no duplicate aliquots.
+W1-S2,1,S2,S1,Build counts/sample/annotation contracts,Kickoff,At least ten complete pairs or lead-approved scope change; no duplicate aliquots.
+W1-S3,1,S3,S2,Confirm paired design and duplicate rules,Kickoff,At least ten complete pairs or lead-approved scope change; no duplicate aliquots.
+W1-S4,1,S4,S3,Read TCGA cohort context and sketch cohort flow,Kickoff,At least ten complete pairs or lead-approved scope change; no duplicate aliquots.
+W1-S5,1,S5,S4,Run synthetic demo; verify R and compute access,Kickoff,At least ten complete pairs or lead-approved scope change; no duplicate aliquots.
+W2-S1,2,S1,S5,Expand paired cohort and document exclusions,Week 1 gate,Metadata aligns exactly with columns; outliers are investigated before outcomes are selected.
+W2-S2,2,S2,S1,"Inspect library sizes, VST PCA and sample clustering",Week 1 gate,Metadata aligns exactly with columns; outliers are investigated before outcomes are selected.
+W2-S3,2,S3,S2,Audit size-factor logic and low-count filter,Week 1 gate,Metadata aligns exactly with columns; outliers are investigated before outcomes are selected.
+W2-S4,2,S4,S3,Prepare QC captions and investigate candidate outliers,Week 1 gate,Metadata aligns exactly with columns; outliers are investigated before outcomes are selected.
+W2-S5,2,S5,S4,Check exact metadata/count alignment and record hashes,Week 1 gate,Metadata aligns exactly with columns; outliers are investigated before outcomes are selected.
+W3-S1,3,S1,S5,Freeze pair table and count matrix,Week 2 gate,Full-rank paired design; one sample per patient/condition; all tested genes retained in export.
+W3-S2,3,S2,S1,Export QC and normalized/VST matrices,Week 2 gate,Full-rank paired design; one sample per patient/condition; all tested genes retained in export.
+W3-S3,3,S3,S2,Fit paired DESeq2 and audit contrast/design,Week 2 gate,Full-rank paired design; one sample per patient/condition; all tested genes retained in export.
+W3-S4,3,S4,S3,Build volcano and top-gene descriptive heatmap,Week 2 gate,Full-rank paired design; one sample per patient/condition; all tested genes retained in export.
+W3-S5,3,S5,S4,Run batch fit and retain R session/resource record,Week 2 gate,Full-rank paired design; one sample per patient/condition; all tested genes retained in export.
+W4-S1,4,S1,S5,Record gene annotation and GMT version/hash,Week 3 gate,Gene-set version and mapping losses recorded; BH across tested pathways; limitations explicit.
+W4-S2,4,S2,S1,Measure mapping loss and background composition,Week 3 gate,Gene-set version and mapping losses recorded; BH across tested pathways; limitations explicit.
+W4-S3,4,S3,S2,Refit alternative count thresholds and compare effects,Week 3 gate,Gene-set version and mapping losses recorded; BH across tested pathways; limitations explicit.
+W4-S4,4,S4,S3,Run directional enrichment and read three primary papers,Week 3 gate,Gene-set version and mapping losses recorded; BH across tested pathways; limitations explicit.
+W4-S5,4,S5,S4,"Audit FDR families, universes and independent rerun",Week 3 gate,Gene-set version and mapping losses recorded; BH across tested pathways; limitations explicit.
+W5-S1,5,S1,S5,Finalize manifest and cohort flow,Week 4 gate,Independent rerun; three gene/pathway interpretations cited; no diagnostic claims.
+W5-S2,5,S2,S1,Reproduce QC figures with captions,Week 4 gate,Independent rerun; three gene/pathway interpretations cited; no diagnostic claims.
+W5-S3,5,S3,S2,Write model/assumption/limitation note,Week 4 gate,Independent rerun; three gene/pathway interpretations cited; no diagnostic claims.
+W5-S4,5,S4,S3,Assemble biological narrative and six slides,Week 4 gate,Independent rerun; three gene/pathway interpretations cited; no diagnostic claims.
+W5-S5,5,S5,S4,Run complete workflow from frozen inputs and sign release,Week 4 gate,Independent rerun; three gene/pathway interpretations cited; no diagnostic claims.
